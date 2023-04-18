@@ -1,2 +1,2 @@
 # CryptoTrackingApp
-A straightforward crypto currency tracking app built using react
+A straightforward crypto currency tracking app built using react 
