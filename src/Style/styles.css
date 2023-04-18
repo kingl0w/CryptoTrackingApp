@@ -1,0 +1,189 @@
+.sidebar {
+  min-height: 100%;
+  min-width: 250px;
+  width: 15%;
+  background-color: #dc4a08;
+  border-right: 1px solid #f98551;
+}
+.sidebar .logo {
+  margin: 1rem auto 10rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.sidebar .logo h2 {
+  color: #1bdeb2;
+}
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  font-size: 1rem;
+  width: 80%;
+  margin: 1.5rem auto;
+  color: #eee;
+}
+.sidebar a .fa-solid {
+  margin-right: 1rem;
+}
+.sidebar a:hover {
+  color: #1bdeb2;
+}
+
+.currency_table {
+  list-style: none;
+  color: #fff;
+}
+.currency_table .header, .currency_table .row {
+  border-radius: 12px;
+  display: flex;
+  padding: 1rem;
+  border: rgba(0, 0, 0, 0) 1px solid;
+  cursor: pointer;
+}
+.currency_table .header > *, .currency_table .row > * {
+  flex-basis: 33.33%;
+}
+.currency_table .header:hover, .currency_table .row:hover {
+  border: #71eed2 1px solid;
+}
+.currency_table .header {
+  background-color: #fa976a;
+}
+.currency_table .header:hover {
+  border: rgba(0, 0, 0, 0) 1px solid;
+}
+.currency_table .row-no-hover {
+  border: none;
+  cursor: default;
+  border: none;
+}
+.currency_table .row-no-hover:hover {
+  border: none;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
+.pagination * {
+  color: #eee;
+}
+.pagination .page-num {
+  padding: 0.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pagination .page-num:hover {
+  background-color: #1bdeb2;
+}
+.pagination .active {
+  background-color: #1bdeb2;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sarabun", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #dc4a08;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+}
+.App .main {
+  flex-basis: 70%;
+  margin: 2rem;
+}
+.App .main section {
+  background-color: #F76320;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+.App .main section .intervals {
+  display: flex;
+  margin: 1rem;
+  gap: 10px;
+}
+.App .main section .intervals .interval-btn {
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background-color: #44e8c3;
+  color: #000;
+  box-shadow: 1px 1px 5px #1bdeb2;
+  transition: 0.4s;
+}
+.App .main section .intervals .interval-btn:hover {
+  box-shadow: 3px 3px 5px #15b18e;
+  background-color: #1bdeb2;
+}
+.App .main section .intervals .active {
+  box-shadow: 3px 3px 5px #15b18e;
+  background-color: #1bdeb2;
+  color: #eee;
+}
+
+.search-box {
+  width: 100%;
+  position: relative;
+}
+.search-box input {
+  width: 100%;
+  padding: 13px;
+  font-size: 1rem;
+  background-color: #fa976a;
+  border: 1px solid #1bdeb2;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.search-box .suggestion-box {
+  position: absolute;
+  top: 3rem;
+  width: 100%;
+  list-style: none;
+  background-color: #fa976a;
+  color: #eee;
+  padding: 0;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.search-box .suggestion-box li {
+  padding: 7px 10px;
+  cursor: pointer;
+}
+.search-box .suggestion-box li:hover {
+  background-color: rgba(55, 238, 168, 0.6705882353);
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.title h3 {
+  font-size: 1.6rem;
+  color: #ddd;
+}
+.title h4 {
+  font-size: 1.2rem;
+  color: #ddd;
+}/*# sourceMappingURL=styles.css.map */
